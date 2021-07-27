@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>3D Boids</title>
+        <script src="./dat.gui.min.js"></script>
+        <script src="./boids.js"></script>
+        <style type = "text/css">
+            body {
+                margin: 0;
+                background-color: rgb(237, 248, 248);
+                overflow: hidden;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="Slider Group">
+            <input id="boidNum" type="range" min = "1" max = "100" value = "40" class="slider" name="Number"/>
+            <input id="separationDistance" type="range" min = "1" max = "40" value = "20" class="slider"/>
+            <input id="separationFactor" type="range" min = "1" max = "100" value = "90" class="slider"/>
+            <input id="cohesionDistance" type="range" min = "1" max = "100" value = "14" class="slider"/>
+            <input id="cohesionFactor" type="range" min = "1" max = "100" value = "15" class="slider"/>
+            <input id="alignmentFactor" type="range" min = "1" max = "100" value = "5" class="slider"/>
+            <input id="speedLimit" type="range" min = "1" max = "100" value = "60" class="slider"/>
+            <input id="speedConvergenceFactor" type="range" min = "1" max = "100" value = "40" class="slider"/>
+        </div>
+        <canvas id="boids"></canvas>
+    </body>
+</html>
