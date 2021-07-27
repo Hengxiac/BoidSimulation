@@ -43,6 +43,7 @@ Simple Boid Simulation Algorithm based on Typescript
   - Obstacle Avoidance
   - Wind Field
   - 3D Support
+  - Better User Interaface
   
 - [Psudocode Reference](http://www.kfish.org/boids/pseudocode.html)
 - [Tutorial by Ben Eater](https://eater.net/boids)
